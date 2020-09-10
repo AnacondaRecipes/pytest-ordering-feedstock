@@ -1,5 +1,5 @@
 {% set name = "pytest-ordering" %}
-{% set version = "0.6" %}
+{% set version = "6.0.1" %}
 
 package:
   name: "{{ name|lower }}"
@@ -7,7 +7,7 @@ package:
 
 source:
   url: "https://github.com/ftobia/{{ name }}/archive/{{ version }}.tar.gz"
-  sha256: c1149011a3bec662d4dd92427197bd5d02546f380b3568eb6217efb743614309
+  sha256: d5558cd419c8d46bdc958064cb97f963d1ea793866414c025906ec15033512ed
 
 build:
   number: 0
